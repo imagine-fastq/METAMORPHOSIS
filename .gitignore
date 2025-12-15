@@ -1,0 +1,16 @@
+# Sistem Dosyaları
+.DS_Store
+
+# Python Önbelleği
+__pycache__/
+*.py[cod]
+
+# Medya Dosyaları (Bunları repoya yükleme, çok yer kaplar)
+*.mp4
+*.mov
+*.MOV
+*.avi
+*.wav
+
+# Geçici Dosyalar
+temp_*
