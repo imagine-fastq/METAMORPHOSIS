@@ -27,7 +27,31 @@ The system operates like a Python-based modular **VJ Mixer**. While analyzing th
 * **Skeletal State:** 60Hz Cardiac Pulse (Biological Rhythm).
 * **Digital State:** High-frequency Sonar Pings (Data Flow).
 
-### 🚀 Installation & Usage
+---
+
+## 🇹🇷 TÜRKÇE
+
+### 🔬 Özet
+**METAMORPHOSIS**, video verisini statik bir dosya olarak değil; mutasyon ve evrime açık biyolojik bir organizma olarak ele alan deneysel bir **İşitsel-Görsel Glitch Sanat** projesidir.
+
+Bir Biyoinformatikçi perspektifiyle proje; DNA dizileme verilerinin (FASTQ) kaotik düzenini, görsel medyanın (MP4) katı yapısına enjekte etmeyi amaçlar. Gerçekliği **Fenotip (Görüntü)** ve **Genotip (Veri)** olarak ikiye böler ve bunları prosedürel **Sesleştirme (Sonifikasyon)** yoluyla yeniden sentezler.
+
+### 🧠 Konsept: `imagine-fastq`
+Bu proje, Genomik Veri Bilimi (Dry Lab) ve Dijital Sanatın kesişim noktasında durmaktadır. İsimlendirme ve yapı üç temel üzerine oturur:
+1.  **Imagine (Hayal Et):** Sınırların eridiği ve verinin özgürleştiği bir ütopya (Lennon).
+2.  **FASTQ:** Biyolojik verinin ham formatı. Burada pikselleri `ACGT` yerine `0` ve `1` bazlarına indirgiyoruz.
+3.  **Metamorphosis (Başkalaşım):** Görüntünün tanınmaz hale gelerek yeni bir forma (Gürültü/Glitch) dönüştüğü Kafkaesk süreç.
+
+### 🛠️ Teknik Mimari
+Sistem, Python tabanlı modüler bir **VJ Mikseri** gibi çalışır. Videoyu kare kare (frame-by-frame) analiz ederken eşzamanlı olarak **Prosedürel Ses Sentezi (DSP)** gerçekleştirir.
+* **Organik Durum:** 40Hz Derin Uğultu (LFO Modülasyonlu).
+* **İskelet Durumu:** 60Hz Kardiyak Nabız (Biyolojik Ritim).
+* **Dijital Durum:** Yüksek Frekanslı Sonar Sinyalleri (Veri Akışı).
+
+---
+
+### 🚀 Installation & Usage / Kurulum ve Kullanım
+
 ```bash
 git clone [https://github.com/imagine-fastq/METAMORPHOSIS.git](https://github.com/imagine-fastq/METAMORPHOSIS.git)
 cd METAMORPHOSIS
