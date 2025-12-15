@@ -6,54 +6,30 @@
 
 ![Metamorphosis Cover](assets/evidence_03_mix.jpg)
 
-## 🔬 Abstract (Özet)
-
-**METAMORPHOSIS**, video verisini statik bir dosya formatı olarak değil; yaşayan, mutasyona uğrayan ve dijital ortamda evrimleşen biyolojik bir organizma olarak ele alan deneysel bir **Audio-Visual Glitch Art** projesidir.
-
-Bir Biyoinformatikçi gözüyle; DNA dizileme verisindeki (FASTQ) kaotik düzeni, görsel medyanın (MP4) rijit yapısına enjekte etmeyi amaçlar. Proje, gerçekliği **Fenotip (Görüntü)** ve **Genotip (Veri)** olarak ikiye ayırır ve bunları prosedürel ses tasarımıyla (Sonification) yeniden sentezler.
-
-## 🧠 Konsept: `imagine-fastq`
-
-Bu proje, sanatçının genomik veri bilimi (Dry-lab) geçmişi ile dijital sanatın kesişim noktasında durur. İsimlendirme ve yapı üç temel ayağa oturur:
-
-1.  **Imagine:** Sınırların kalktığı, verinin özgürleştiği bir ütopya (Lennon).
-2.  **FASTQ:** Biyolojik verinin ham hali. Biz burada pikselleri `ACGT` yerine `0` ve `1` bazlarına indirgiyoruz.
-3.  **Metamorphosis:** Görüntünün, Kafkaesk bir süreçle tanınmaz hale gelip yeni bir forma (Noise/Glitch) dönüşmesi.
-
 ---
 
-## 🧪 Görsel Kanıtlar (Visual Evidence)
+## 🇬🇧 ENGLISH
 
-### Phase 1: Isolation (The Void)
-Görüntüdeki organik dokular (Luma eşiği ile) ayrıştırılır. Geriye sadece iskelet kalır.
-![Isolation Phase](assets/evidence_01_void.jpg)
+### 🔬 Abstract
+**METAMORPHOSIS** is an experimental **Audio-Visual Glitch Art** project that treats video data not as a static file, but as a biological organism capable of mutation and evolution.
 
-### Phase 2: Infection (Red Code)
-Ayrıştırılan dokulara "Binary Rain" enjekte edilir. Bu aşama, verinin görseli ele geçirdiği andır.
-![Code Injection](assets/evidence_02_code.jpg)
+From a Bioinformatician's perspective; it aims to inject the chaotic order of DNA sequencing data (FASTQ) into the rigid structure of visual media (MP4). The project splits reality into **Phenotype (Vision)** and **Genotype (Data)**, resynthesizing them through procedural **Sonification**.
 
----
+### 🧠 Concept: `imagine-fastq`
+This project stands at the intersection of Genomic Data Science (Dry-lab) and Digital Art. The nomenclature and structure rest on three pillars:
+1.  **Imagine:** A utopia where boundaries dissolve and data becomes free (Lennon).
+2.  **FASTQ:** The raw format of biological data. Here, we reduce pixels to `0` and `1` bases instead of `ACGT`.
+3.  **Metamorphosis:** The Kafkaesque process where the image becomes unrecognizable, transforming into a new form (Noise/Glitch).
 
-## 🛠️ Teknik Mimari (The Engine)
+### 🛠️ Technical Architecture
+The system operates like a Python-based modular **VJ Mixer**. While analyzing the video frame-by-frame, it simultaneously performs **Procedural Sound Synthesis (DSP)**.
+* **Organic State:** 40Hz Deep Abyss Drone (LFO Modulated).
+* **Skeletal State:** 60Hz Cardiac Pulse (Biological Rhythm).
+* **Digital State:** High-frequency Sonar Pings (Data Flow).
 
-Sistem, Python tabanlı modüler bir **VJ Mikseri** gibi çalışır. Görüntüyü analiz ederken eş zamanlı olarak **Prosedürel Ses Sentezi (DSP)** yapar. Önceden kaydedilmiş hiçbir ses kullanılmaz; duyduğunuz her şey o an kod tarafından üretilir.
-
-### Audio-Visual Sync Mekanizması:
-* **State: Organic (Mix)** $\rightarrow$ **Sound: Deep Abyss Drone (LFO Modulated)**
-    * *Teknik:* 40Hz Sinüs dalgası, okyanus derinliği hissi için genlik modülasyonu ile dalgalandırılır.
-* **State: Skeletal (B&W)** $\rightarrow$ **Sound: Cardiac Pulse**
-    * *Teknik:* 60Hz Sinüs darbesi, biyolojik kalp atışını simüle eden Attack/Decay zarfı (envelope) ile işlenir.
-* **State: Digital (Red)** $\rightarrow$ **Sound: Sonar Ping**
-    * *Teknik:* Yüksek frekanslı sinüs dalgaları, veri akışını temsil eden kısa sönümlenmelerle tetiklenir.
-
-## 🚀 Kurulum ve Deneysel Kullanım
-
-Laboratuvar ortamını (Environment) kurmak için:
-
+### 🚀 Installation & Usage
 ```bash
-# Repoyu klonlayın
 git clone [https://github.com/imagine-fastq/METAMORPHOSIS.git](https://github.com/imagine-fastq/METAMORPHOSIS.git)
 cd METAMORPHOSIS
-
-# Yaşam destek ünitelerini (Dependencies) yükleyin
-pip install -r requirements.txt
+pip install opencv-python numpy moviepy scipy
+python main.py
